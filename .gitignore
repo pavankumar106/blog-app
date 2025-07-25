@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.logs
+npm-debug.log*
+.DS_Store
+/dist
+/build
+coverage/
+# Ignore environment variables file
