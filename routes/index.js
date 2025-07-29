@@ -1,8 +1,8 @@
-const express = require("express");
+import express from "express";
 const router = express.Router();
 
 router.get("/about", (req, res) => {
   res.send("Hello from the about route!");
 });
 
-module.exports = router;
+export default router;
